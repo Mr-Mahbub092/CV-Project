@@ -1,0 +1,105 @@
+*{
+  margin: 0;
+  padding:0;
+}
+body{
+  background-color: rgb(61, 59, 59);
+  font-family: 'Alkatra', cursive;
+}
+.container{
+  max-width: 1000px;
+  background-color: rgb(224, 215, 204);
+  margin: auto;
+  padding:20px;
+}
+header{
+  
+}
+.bio_pic{
+  width: 100px;
+  height:120px;
+  border:2px solid white;
+  border-radius: 45%;
+  float: left;
+  }
+  h1,h2,h3,h4,h5,h6{
+    color: #11999e;;
+  }
+.header_bio{
+  float:left;
+  padding:20px;
+}
+.header_contact{
+  float: right;
+  padding:30px;
+}
+.header_contact a{
+  text-decoration: none;
+  color: teal;
+  
+}
+.header_contact a:hover{
+  text-decoration: underline;
+  color: tomato;
+}
+.div_clear{
+  clear: both;
+}
+#header_hr{
+  border: 2px solid black;
+  width: 100%;
+  border-bottom: none;
+  margin: 20px auto;
+}
+
+/*----------------------
+      Main Section
+-----------------------*/
+.personal_section{
+  text-align: justify;
+}
+.content{
+
+}
+.left_div{
+  float:left;
+  width:30%;
+}
+.right_div{
+  float:left;
+  width:70%
+}
+.section_hr{
+  border: 1px solid black;
+  width: 100%;
+  border-bottom: none;
+  margin:20px auto;
+}
+.sub_div1, .sub_div2{
+ float: left;
+ width: 50%;
+}
+/*-----------------
+     Footer
+------------------*/
+.footer{
+  background-color: black;
+  text-align: center;
+  padding:20px;
+  }
+
+.footer a{
+  text-decoration: none;
+  color: teal;
+  padding:20px;
+  font-size: 1.2rem;
+}
+.footer a:hover{
+  text-decoration: underline;
+  color: tomato;
+}
+.footer p{
+  color:white;
+}
+
+
